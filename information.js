@@ -1,9 +1,7 @@
-const cowsay = require("cowsay");
+const informations = {
+  name: "Theo",
+  school: "Wild Code School",
+  campus: "Reims",
+};
 
-console.log(
-  cowsay.say({
-    text: "I'm Theo from Wild Code School Reims",
-    e: "oO",
-    T: "U ",
-  })
-);
+module.exports = informations;
